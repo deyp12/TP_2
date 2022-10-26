@@ -14,10 +14,10 @@ print("Bienvenue,Dans ce jeu,Il faut que vous devinez le nombre au aleratoire")
 
 def jeu_devinette():
 
-"""
+ """
 Ce code va donner la choix au joeur d'avoir le nombre minimal et nombre maximale du nombre qu'il doit deviner,ainsi cela va donner le nombre de essais que le joueur
 a prit de deviner et donner le choix de rejoueur ou de quitter à la fin du première partie du jeu
-"""
+ """
 
 
     borne_minimale = int(input("C'est quoi le nombre minimale voulez vouz avoir dans ce jeu "))
