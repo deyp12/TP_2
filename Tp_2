@@ -1,0 +1,53 @@
+"""
+Tp 2
+Polashi Dey
+"""
+
+import random
+
+print("Bienvenue,Dans ce jeu,Il faut que vous devinez le nombre au aleratoire")
+
+"""
+
+"""
+def jeu_devinette():
+
+   borne_minimale = int(input("C'est quoi le nombre minimale voulez vouz avoir dans ce jeu "))
+   borne_maximale = int(input("C'est quoi le nombre maximale voulez vouz avoir dans ce jeu "))
+
+   x = random.randint (borne_minimale,borne_maximale)
+
+   nb_essai = 1
+   print("Allons y")
+   essai = int(input("entrez votre essai"))
+
+
+   while essai != x:
+
+
+
+       if essai > x :
+           print ("le nombre est plus petit")
+           essai = int(input("entrez votre essai"))
+           nb_essai = nb_essai +1
+       else:
+           print("le nombre est plus grand")
+           essai = int(input("entrez votre essai"))
+           nb_essai = nb_essai+1
+
+
+   print("Bonne réponse!")
+   print(f"vous avez dévinez en {nb_essai} essai")
+
+
+   quit = (input("Voulez vous quitter?Répondez par oui ou non "))
+   if quit == "oui":
+       print("Au revoir")
+   elif quit == "non":
+       jeu_devinette()
+
+jeu_devinette()
+
+
+
+
