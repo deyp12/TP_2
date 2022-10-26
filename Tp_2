@@ -1,11 +1,14 @@
 """
 Tp 2
 Polashi Dey
+
 """
 
 import random
 
 print("Bienvenue,Dans ce jeu,Il faut que vous devinez le nombre au aleratoire")
+
+On print un phrase de introduction pour mise en contexte la personne qui va jouer
 
 """
 
